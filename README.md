@@ -39,5 +39,3 @@ System.out.println("Addition: " + calc.add(10, 5));         // Output: 15.0
     }
 }
 
-
-
