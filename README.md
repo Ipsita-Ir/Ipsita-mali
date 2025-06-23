@@ -39,12 +39,5 @@ System.out.println("Addition: " + calc.add(10, 5));         // Output: 15.0
     }
 }
 
-Notes:
 
-This version uses double to handle both integers and decimals.
-
-Division by zero is handled by printing an error message and returning Double.NaN (Not a Number). You can change this to throw an exception if needed.
-
-
-Would you like this adapted for integers only or with exception handling instead?
 
