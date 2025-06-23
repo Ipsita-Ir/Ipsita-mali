@@ -1,0 +1,24 @@
+In Java, you can use the Scanner class to get input from the user. Here's a basic example of how to do that:
+
+import java.util.Scanner;
+
+public class UserInputExample {
+    public static void main(String[] args) {
+        // Create a Scanner object to read input
+        Scanner scanner = new Scanner(System.in);
+
+        // Ask the user for their name
+        System.out.print("Enter your name: ");
+        String name = scanner.nextLine();  // Read user input as a string
+
+        // Ask the user for their age
+        System.out.print("Enter your age: ");
+        int age = scanner.nextInt();  // Read user input as an integer
+
+        // Output the input received
+        System.out.println("Hello, " + name + "! You are " + age + " years old.");
+
+        // Close the scanner
+        scanner.close();
+    }
+
